@@ -3,7 +3,7 @@
     const response = document.getElementById("response");
 
     yesBtn.addEventListener("click", function() {
-        response.innerHTML = "Yesssss!!!💖 I Love You Tianah😊";
+        response.innerHTML = "Yesssss!!!💖 I Love You Tianah😘";
         yesBtn.style.display = "none";
         noBtn.style.display = "none";
     });
@@ -14,4 +14,5 @@
         noBtn.style.position = "absolute";
         noBtn.style.left = x + "px";
         noBtn.style.top = y + "px";
+
     });
